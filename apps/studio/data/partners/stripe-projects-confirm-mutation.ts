@@ -15,7 +15,6 @@ async function confirmAccountRequest({ arId }: ConfirmAccountRequestVariables) {
     '/platform/stripe/projects/provisioning/account_requests/{id}/confirm',
     {
       params: { path: { id: arId } },
-      body: {},
     }
   )
 
